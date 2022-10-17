@@ -5,7 +5,6 @@
 
 # outcaster_1
 Create an app which display Settings UI as shown in attached picture with an App bar contains title of "Settings UI" which should auto-changes whole app's UI based on mobile devices's operating system. (As shown in image called "settings_ui")
--
 
 
 https://user-images.githubusercontent.com/107666466/196149971-e89fdc81-b81c-49c1-a146-ac18edab0c5b.mp4
