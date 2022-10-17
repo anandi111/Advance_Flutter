@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407741856422",
+    "project_id": "fir-miner-3",
+    "storage_bucket": "fir-miner-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407741856422:android:582464f402b3594d221267",
+        "android_client_info": {
+          "package_name": "com.firebase3.anandi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407741856422-5mh2mait9di4lmna2ldacbp8lghmtkv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeduOykjPOT7pyjzZAIrJb1IpcVI-qnBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407741856422-5mh2mait9di4lmna2ldacbp8lghmtkv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

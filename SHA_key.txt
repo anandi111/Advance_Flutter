@@ -1,0 +1,3 @@
+SHA key command:-
+
+keytool -list -v -keystore C:\Users\PCCOM\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
