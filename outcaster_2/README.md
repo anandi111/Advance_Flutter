@@ -7,9 +7,8 @@
 Create an app which display Cupertino Store layout for various products with only cupertino design UI. An app should have exact UI as shown in attached images. Search functionality may be avoided. But UI is must present. (As shown in images called "products_1", "products_2" and "products_3")
 
 
-https://user-images.githubusercontent.com/107666466/196149971-e89fdc81-b81c-49c1-a146-ac18edab0c5b.mp4
+https://user-images.githubusercontent.com/107666466/196245698-f74a06c0-0206-40c9-a173-13f10fa97dab.mp4
 
 
-<img src="https://user-images.githubusercontent.com/107666466/196151681-518c2bbf-4b3d-4227-8084-0cfe36b2f429.jpg" alt="Girl in a jacket" width="300" height="700">
-  
-<img src="https://user-images.githubusercontent.com/107666466/196152732-aa59d86d-75d4-4928-b0be-f54d4b2fa92a.jpg" alt="Girl in a jacket" width="300" height="700">!
+<img src="https://user-images.githubusercontent.com/107666466/196245979-a10ce0e4-c4ab-4753-ae5b-757ec7e26e62.jpg" alt="Girl in a jacket" width="300" height="700">
+
