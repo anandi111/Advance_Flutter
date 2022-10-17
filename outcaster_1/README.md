@@ -1,16 +1,8 @@
 # outcaster_1
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/107666466/196148682-5233b5f7-ddda-422d-be49-7af1695b37ef.png" alt="Girl in a jacket" width="500" height="600">
 
-## Getting Started
+<video width="320" height="240" autoplay>
+  <source src="https://user-images.githubusercontent.com/107666466/196148514-5aed0f73-73cc-4486-b8bb-62eac2d5d8c3.mp4" type="video/mp4">
+</video>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
