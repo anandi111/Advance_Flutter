@@ -11,11 +11,5 @@ Create an Application Store app which auto-changes whole app's UI based on mobil
 https://user-images.githubusercontent.com/107666466/196246414-acb9a80a-c3e0-491c-ba89-48e3c514ea9b.mp4
 
 
-<img src="https://user-images.githubusercontent.com/107666466/196151681-518c2bbf-4b3d-4227-8084-0cfe36b2f429.jpg" alt="Girl in a jacket" width="300" height="700">
-  
-<img src="https://user-images.githubusercontent.com/107666466/196152732-aa59d86d-75d4-4928-b0be-f54d4b2fa92a.jpg" alt="Girl in a jacket" width="300" height="700">
-
-
-
-
+<img src="https://user-images.githubusercontent.com/107666466/196247563-210dbabd-85b1-4a0d-b172-f3f736c4b2f9.jpg" alt="Girl in a jacket" width="300" height="700">
 
