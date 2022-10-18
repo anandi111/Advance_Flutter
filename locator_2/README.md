@@ -1,16 +1,31 @@
-# locator_2
+![image (3)](https://user-images.githubusercontent.com/107666466/196335405-dbf24de7-999c-48e3-add3-9e2fa0863c5d.jpg)
 
-A new Flutter project.
+<!-- <img src="https://user-images.githubusercontent.com/107666466/196148682-5233b5f7-ddda-422d-be49-7af1695b37ef.png" width="1200" height="280"> -->
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# Locator_2
+Create an app which represents all fundamental permissions in HomePage. While tapping on each permission, a AlertDialog should open for asking user to perform certain actions such as
+a. Checking Permission Status
+b. Requesting Permission
+c. Open Application's Settings Menu
 
-A few resources to get you started if this is your first Flutter project:
+NOTE: Use your preferred UI for better user experience.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/107666466/196335462-5c607de9-97ad-4277-80e6-e396e7e17661.mp4
+
+
+---
+
+
+<img src="https://user-images.githubusercontent.com/107666466/196335658-6362b076-a83f-457c-bf5f-6feef36d831c.jpg" alt="Girl in a jacket" width="300" height="700">
+
+---
+  
+<img src="https://user-images.githubusercontent.com/107666466/196335692-a8341ead-90bf-4bc3-bea2-cfb83d034b4c.jpg" alt="Girl in a jacket" width="300" height="700">
+
+
+
+
+
