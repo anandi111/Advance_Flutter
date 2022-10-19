@@ -1,16 +1,30 @@
-# firebase_miner_1
+![flutter_6](https://user-images.githubusercontent.com/107666466/196156982-d724a0df-971c-4f0f-bf59-bc56fad02fe5.png)
 
-A new Flutter project.
+<!-- <img src="https://user-images.githubusercontent.com/107666466/196148682-5233b5f7-ddda-422d-be49-7af1695b37ef.png" width="1200" height="280"> -->
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# FireBaseMiner_1
+Create an app which display Firebase and Your App Logo as a splash screen each time app is run. Create an Login App which displays a Login Page and user can login by providing valid credentials to login. If new user is coming then first of all he/she can sign up with Firebase's User Email/Password authentication. Also use Curves and Shaping for UI.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/107666466/196492957-21ebdd50-c20a-4749-ac19-4768c819af4c.mp4
+
+---
+
+<img src="https://user-images.githubusercontent.com/107666466/196486982-88b77175-5003-4087-ab93-ce6bfdfb0d98.jpg" alt="Girl in a jacket" width="300" height="700">
+
+---
+  
+<img src="https://user-images.githubusercontent.com/107666466/196487053-86557ae9-3e5b-4c27-aa55-5f05b53cb24e.jpg" alt="Girl in a jacket" width="300" height="700">
+
+---
+  
+<img src="https://user-images.githubusercontent.com/107666466/196487146-c8bbeb5c-0cb5-49b8-b830-3af2bdaece48.jpg" alt="Girl in a jacket" width="300" height="700">
+
+
+
+
+
+

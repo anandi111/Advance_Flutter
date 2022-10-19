@@ -16,6 +16,7 @@ Future<void> main() async {
   }
 
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: HomePage(),
   ));
 }
