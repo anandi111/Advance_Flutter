@@ -1,16 +1,25 @@
-# sky_scrapper_3
+![flutter-sharing-image-large](https://user-images.githubusercontent.com/107666466/196334454-3169c1d1-ebab-41bb-a54e-f2faccbc484e.png)
 
-A new Flutter project.
+<!-- <img src="https://user-images.githubusercontent.com/107666466/196148682-5233b5f7-ddda-422d-be49-7af1695b37ef.png" width="1200" height="280"> -->
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# SkyScrapper_3
+Create an app which generates Random People data. Display them in your own type of best UI.
+Use API => https://randomuser.me/api/
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://user-images.githubusercontent.com/107666466/196334507-9c8d1e81-5d25-401a-bcb1-c1455092faf8.mp4
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+
+<img src="https://user-images.githubusercontent.com/107666466/196334641-6e0444d1-3526-4e94-bfca-59b66a6987e5.jpg" alt="Girl in a jacket" width="300" height="700">
+
+---
+  
+<img src="https://user-images.githubusercontent.com/107666466/196334654-b5a0baf5-9a76-4194-8c43-9602b8f4cd78.jpg" alt="Girl in a jacket" width="300" height="700">
+
+
+
