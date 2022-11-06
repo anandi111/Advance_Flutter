@@ -1,9 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.animator_1">
+    package="com.anandi.bmi.calc">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="animator_1"
+        android:label="Health Calculater"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

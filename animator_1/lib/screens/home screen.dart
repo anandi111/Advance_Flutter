@@ -1,11 +1,9 @@
 import 'dart:math';
-
 import 'package:animator_1/reso/color.dart';
 import 'package:animator_1/reso/text_style.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../reso/string.dart';
 
 class MyApp extends StatefulWidget {

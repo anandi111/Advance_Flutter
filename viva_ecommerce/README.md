@@ -1,16 +1,21 @@
-# viva_ecommerce
+![flutter_2](https://user-images.githubusercontent.com/107666466/196512231-6d63a974-0e5c-4925-bc02-bfb9bd9c91bb.png)
 
-A new Flutter project.
+---
 
-## Getting Started
+# Shopping App
+All in all, every feature of your mobile shopping app should contribute to its primary goal: increasing sales, building customer loyalty, and giving your business the competitive advantage it needs to thrive. If you want to learn more about mobile commerce basics, read the article explaining mobile commerce definition – what is mCommerce?
 
-This project is a starting point for a Flutter application.
+Features:
 
-A few resources to get you started if this is your first Flutter project:
+- Easy login & registration
+- User-friendly product filtering and sorting
+- Detailed product descriptions
+- Product gallery
+- Presenting your products with Augmented Reality
+- Shopping cart
+- Shipping options
+- Order summary
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/107666466/196514112-c395858b-622d-43fe-a2c8-3d5f84d9a61a.mp4
+

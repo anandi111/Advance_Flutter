@@ -8,15 +8,21 @@ class CarrAPIHelper {
   static final CarrAPIHelper currAPIHelper = CarrAPIHelper._();
 
   Future<CurrData?> fetchingUserData(
-      {required String From, required String To}) async {
-    http.Response response = await http.get(Uri.parse(
-        "https://www.amdoren.com/api/currency.php?api_key=tSiNF3weUYf79AMbQS78Vgd34gehSu&from=$From&to=$To"));
+      {required String From,
+      required String To,
+      required double amount,
+      required String error}) async {
+    http.Response response = await http.get(
+        Uri.parse(
+            "https://api.api-ninjas.com/v1/convertcurrency?want=$To&have=$From&amount=$amount"),
+        headers: {'X-Api-Key': 'aiDw8vt6l6n27GVF9nevQBCvyM8T7ocC8QPYBiqZ'});
 
     if (response.statusCode == 200) {
       Map decodedData = jsonDecode(response.body);
 
       CurrData currData = CurrData(
-          data: decodedData["amount"], error: decodedData["error_message"]);
+          data: decodedData["new_amount"],
+          error: decodedData["error"] ?? error);
 
       return currData;
     }
