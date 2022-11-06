@@ -7,7 +7,7 @@
 Create an app for Food ordering system with help of State management system. You can use either Provider of GetX as a state management system. Also for database, you can either choose SQLite or Fireabse Firestore.
 - Use attached images for reference. And implement all features shown in images functionality-wise.
 
-
+---
 
 https://user-images.githubusercontent.com/107666466/200191664-94437e56-b4ba-4521-8eab-479d6e3d7917.mp4
 
