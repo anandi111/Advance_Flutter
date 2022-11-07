@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:state_handler/controllers/food_controller.dart';
 import 'package:state_handler/resources/color.dart';
 import 'package:state_handler/resources/food_list.dart';
 import 'package:state_handler/views/detail_food_page.dart';
+import 'package:state_handler/views/food_cart_page.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  @override
   Widget build(BuildContext context) {
+    FoodController foodController = Get.put(FoodController());
+
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -140,10 +139,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                               Container(
                                 height: 120,
-                                width: 120,
+                                width: 150,
                                 decoration: BoxDecoration(
                                     image: DecorationImage(
-                                        fit: BoxFit.fill,
+                                        fit: BoxFit.cover,
                                         image: AssetImage(foodList[i].photo))),
                               ),
                               Text(
@@ -185,7 +184,7 @@ class _HomePageState extends State<HomePage> {
                                     width: 20,
                                   ),
                                   Text(
-                                    foodList[i].price,
+                                    foodList[i].price.toString(),
                                     style: TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -201,7 +200,12 @@ class _HomePageState extends State<HomePage> {
                                           bottomRight: Radius.circular(20),
                                         )),
                                     child: IconButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        foodController.insertFood(
+                                            id: 1, food: foodList[i]);
+                                        Get.snackbar("Insert Item",
+                                            "1 item added into cart.");
+                                      },
                                       icon:
                                           Icon(Icons.add, color: Colors.white),
                                     ),
@@ -218,7 +222,9 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: colorGreen,
-        onPressed: () {},
+        onPressed: () {
+          Get.to(() => CartPage());
+        },
         child: const Icon(
           Icons.shopping_cart,
         ),

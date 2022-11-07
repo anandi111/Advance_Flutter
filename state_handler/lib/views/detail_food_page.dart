@@ -2,15 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:state_handler/modals/food.dart';
 import 'package:state_handler/resources/color.dart';
 
-class DetailFoodPage extends StatefulWidget {
+class DetailFoodPage extends StatelessWidget {
   DetailFoodPage({Key? key, required this.food}) : super(key: key);
   Food food;
 
-  @override
-  State<DetailFoodPage> createState() => _DetailFoodPageState();
-}
-
-class _DetailFoodPageState extends State<DetailFoodPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,16 +54,16 @@ class _DetailFoodPageState extends State<DetailFoodPage> {
             Center(
               child: Container(
                 height: 300,
-                width: 300,
+                width: 350,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                  fit: BoxFit.fill,
-                  image: AssetImage(widget.food.photo),
+                  fit: BoxFit.cover,
+                  image: AssetImage(food.photo),
                 )),
               ),
             ),
             Text(
-              widget.food.name,
+              food.name,
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
             Row(
@@ -95,7 +90,7 @@ class _DetailFoodPageState extends State<DetailFoodPage> {
               ],
             ),
             Text(
-              "\$" + widget.food.price,
+              "\$" + food.price.toString(),
               style: TextStyle(
                   fontSize: 30, fontWeight: FontWeight.bold, color: colorGreen),
             ),
