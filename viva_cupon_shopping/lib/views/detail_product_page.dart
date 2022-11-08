@@ -130,7 +130,7 @@ class _DetailFoodPageState extends State<DetailFoodPage> {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: const Center(
-                    child: Text("Buy Now",
+                    child: Text("Order Now",
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 20,

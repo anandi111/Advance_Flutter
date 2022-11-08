@@ -23,7 +23,20 @@ class _BuyPageState extends State<BuyPage> {
       if (idController.text == data[i]["id"].toString()) {
         var total =
             widget.product.price - int.parse(data[i]["value"].toString());
-        cuponController.deletingData(id: int.parse(data[i]["id"].toString()));
+
+        if (int.parse(data[i]["quantity"].toString()) == 0) {
+          cuponController.deletingData(id: data[i]["id"].toString());
+        } else if (int.parse(data[i]["quantity"].toString()) == 1) {
+          cuponController.updateData(
+              quantity: int.parse(data[i]["quantity"].toString()) - 1,
+              name: data[i]["name"].toString());
+          cuponController.deletingData(id: data[i]["id"].toString());
+        } else {
+          cuponController.updateData(
+              quantity: int.parse(data[i]["quantity"].toString()) - 1,
+              name: data[i]["name"].toString());
+        }
+
         return total;
       }
     }
@@ -131,7 +144,6 @@ class _BuyPageState extends State<BuyPage> {
                   return Column(
                     children: [
                       TextField(
-                        keyboardType: TextInputType.number,
                         controller: idController,
                         onSubmitted: (val) async {
                           int? total = showResult(data: data);

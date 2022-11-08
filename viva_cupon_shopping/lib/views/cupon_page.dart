@@ -20,9 +20,8 @@ class _CuponPageState extends State<CuponPage> {
     final bool? repeat = prefs.getBool('repeat');
 
     if (repeat == null) {
-      await cuponController.insertData(id: 1, name: "Golden", value: 50);
-      await cuponController.insertData(id: 2, name: "Silver", value: 30);
-      await cuponController.insertData(id: 3, name: "Metal", value: 10);
+      await cuponController.insertData(
+          id: "ad369", name: "Golden Cuopon", value: 50, quantity: 5);
 
       await prefs.setBool('repeat', true);
     }
@@ -73,7 +72,7 @@ class _CuponPageState extends State<CuponPage> {
                       elevation: 5,
                       shadowColor: Colors.grey.withOpacity(0.3),
                       child: Container(
-                        height: 100,
+                        height: 150,
                         width: MediaQuery.of(context).size.width,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -81,13 +80,20 @@ class _CuponPageState extends State<CuponPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(data[i]["name"].toString() + " Coupon",
+                              Text(data[i]["name"].toString(),
                                   style: TextStyle(
                                       color: Colors.black.withOpacity(0.8),
                                       fontSize: 20,
                                       fontWeight: FontWeight.w600)),
                               Text(
                                 "Coupon ID: " + data[i]["id"].toString(),
+                                style: TextStyle(
+                                    color: Colors.grey.withOpacity(0.5),
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                "Quantity: " + data[i]["quantity"].toString(),
                                 style: TextStyle(
                                     color: Colors.grey.withOpacity(0.5),
                                     fontSize: 16,
@@ -109,7 +115,7 @@ class _CuponPageState extends State<CuponPage> {
                   );
                 });
           }
-          return Text(
+          return const Text(
             "No Coupon",
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
           );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:state_handler/helpers/add_cart_helper.dart';
+import 'package:state_handler/helpers/food_cart_helper.dart';
 import 'package:state_handler/modals/food.dart';
 
 class FoodController extends GetxController {

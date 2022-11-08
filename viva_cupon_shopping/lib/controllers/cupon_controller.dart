@@ -14,22 +14,23 @@ class CuponController extends GetxController {
     db = await openDatabase(path, version: 1,
         onCreate: (Database db, int version) async {
       await db.execute(
-          'CREATE TABLE cupon (id INTEGER , name TEXT, value INTEGER);');
+          'CREATE TABLE cupon (id String , name TEXT, value INTEGER, quantity INTEGER);');
     });
 
     return db!;
   }
 
-  Future<int> insertData({
-    required int id,
-    required String name,
-    required int value,
-  }) async {
+  Future<int> insertData(
+      {required String id,
+      required String name,
+      required int value,
+      required int quantity}) async {
     db = await initDB();
 
-    String query = "INSERT INTO cupon (id, name, value) VALUES(?, ?, ?);";
+    String query =
+        "INSERT INTO cupon (id, name, value, quantity) VALUES(?, ?, ?, ?);";
 
-    List args = [id, name, value];
+    List args = [id, name, value, quantity];
 
     return await db!.rawInsert(query, args);
   }
@@ -47,7 +48,17 @@ class CuponController extends GetxController {
     return cuponList;
   }
 
-  Future<int> deletingData({required int id}) async {
+  Future<int> updateData({required int quantity, required String name}) async {
+    db = await initDB();
+
+    String query = "UPDATE cupon SET quantity = $quantity WHERE name= ?;";
+
+    List args = [name];
+
+    return await db!.rawUpdate(query, args);
+  }
+
+  Future<int> deletingData({required String id}) async {
     db = await initDB();
 
     String query = "DELETE FROM cupon WHERE id= ?;";
